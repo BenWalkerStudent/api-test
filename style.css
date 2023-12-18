@@ -1,0 +1,51 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+.cards-div {
+
+    margin-top: 10%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%;
+
+    row-gap: 10px;
+
+}
+
+
+
+
+
+.card {
+
+    max-width: 204px;
+
+    height: 285px;
+
+
+    margin: auto;
+
+
+    border: solid black 2px;
+
+}
+
+.card-inner img {
+
+
+
+    width: 200px;
+
+}
