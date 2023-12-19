@@ -5,6 +5,8 @@ const imgs = document.querySelectorAll('.card-img')
 
 const address = document.querySelectorAll('.card-address')
 
+const desc = document.querySelectorAll('.business-desc')
+
 
 //fetch and paste
 const url = 'https://iskarr.github.io/austindonovan.github.io/api/business.json'
@@ -19,6 +21,8 @@ fetch(url)
             imgs[i].src = jsObject.business[i].imageurl
 
             address[i].textContent = jsObject.business[i].address
+
+            desc[i].textContent = jsObject.business[i].description
 
         }
     })
